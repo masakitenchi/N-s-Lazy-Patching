@@ -7,6 +7,18 @@
 	</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
+
+				<!-- Change fuel to Depleted Uranium-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[contains(defName, 'ShipTurret_AC') and comps/li[@Class="CompProperties_Refuelable"]]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter</xpath>
+					<value>
+						<fuelFilter>
+							<thingDefs>
+								<li>DepletedUranium</li>
+							</thingDefs>
+						</fuelFilter>
+					</value>
+				</li>
 			
 				<!-- ========== ShipTurret_ACI ========== -->
 				<li Class="PatchOperationReplace">

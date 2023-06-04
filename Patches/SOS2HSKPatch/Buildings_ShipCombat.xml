@@ -467,6 +467,12 @@
 					<xpath>Defs/ThingDef[defName="ShipSpinalEmitter"]/designatorDropdown</xpath>
 				</li>
 				
+				<!-- @Name="ShipSpinalTurretBuilding" -->
+
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="ShipSpinalTurretBuilding"]/designatorDropdown</xpath>
+				</li>
+				
 				<!-- ========== ShipSpinalBarrelLaser ========== -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="ShipSpinalBarrelLaser"]/costList</xpath>
@@ -490,9 +496,9 @@
 					</value>
 				</li>
 				
-				<li Class="PatchOperationRemove">	
+				<!-- <li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="ShipSpinalBarrelLaser"]/designatorDropdown</xpath>
-				</li>
+				</li> -->
 				
 				<!-- ========== ShipSpinalBarrelPlasma ========== -->
 				<li Class="PatchOperationReplace">
@@ -517,9 +523,9 @@
 					</value>
 				</li>
 				
-				<li Class="PatchOperationRemove">	
+				<!-- <li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="ShipSpinalBarrelPlasma"]/designatorDropdown</xpath>
-				</li>
+				</li> -->
 				
 				<!-- ========== ShipSpinalBarrelKinetic ========== -->
 				<li Class="PatchOperationReplace">
@@ -543,9 +549,9 @@
 					</value>
 				</li>
 				
-				<li Class="PatchOperationRemove">	
+				<!-- <li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="ShipSpinalBarrelKinetic"]/designatorDropdown</xpath>
-				</li>
+				</li> -->
 				
 				<!-- ========== HullFoamDistributor ========== -->
 				<li Class="PatchOperationReplace">
