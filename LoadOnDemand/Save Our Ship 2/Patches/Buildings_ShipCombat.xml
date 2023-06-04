@@ -7,6 +7,14 @@
 	</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
+
+				<!-- Passable Turrets-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BaseShipTurretBuilding"]/passability</xpath>
+					<value>
+						<passability>PassThroughOnly</passability>
+					</value>
+				</li>
 				
 				<!-- ========== ShipHeatConduit ========== -->
 				<li Class="PatchOperationReplace">
