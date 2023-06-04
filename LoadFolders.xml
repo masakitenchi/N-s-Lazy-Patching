@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
-  <default>
+  <v1.4>
     <li>/</li>
-	 <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
-	 <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
-  </default>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+    <li IfModActive="kentington.saveourship2">LoadOnDemand/Save Our Ship 2</li>
+  </v1.4>
 </loadFolders>
