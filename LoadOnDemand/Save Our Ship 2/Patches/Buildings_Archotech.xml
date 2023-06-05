@@ -37,9 +37,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="ShipArchotechSpore"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== ShipArchotechPillar ========== -->
 				<li Class="PatchOperationAdd">
@@ -66,9 +66,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[@Name="ShipPillar"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== ArchotechUplink ========== -->
 				<li Class="PatchOperationReplace">
@@ -97,9 +97,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="ArchotechUplink"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== ShipHullTileArchotech ========== -->
 				<li Class="PatchOperationReplace">
@@ -125,9 +125,9 @@
 					<xpath>Defs/ThingDef[defName="ShipHullTileArchotech"]/constructEffect</xpath>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="ShipHullTileArchotech"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== ArchotechAntimatterReactor ========== -->
 				<li Class="PatchOperationReplace">
@@ -154,9 +154,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">	
+				<li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="ArchotechAntimatterReactor"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="ArchotechAntimatterReactor"]/constructEffect</xpath>
@@ -209,9 +209,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Ship_BeamArchotech"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== Ship_BeamArchotech_Unpowered ========== -->
 				<li Class="PatchOperationReplace">
@@ -234,9 +234,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Ship_BeamArchotech_Unpowered"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== Ship_Corner_Archo_OneOne/Ship_Corner_Archo_OneOneFlip ========== -->
 				<li Class="PatchOperationReplace">
