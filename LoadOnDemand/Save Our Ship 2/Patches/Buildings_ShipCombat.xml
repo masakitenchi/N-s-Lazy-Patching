@@ -15,6 +15,14 @@
 						<passability>PassThroughOnly</passability>
 					</value>
 				</li>
+
+				<!-- Passable Heatsink-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@ParentName="ShipHeatsinkBase" and passability="Impassable"]/passability</xpath>
+					<value>
+						<passability>PassThroughOnly</passability>
+					</value>
+				</li>
 				
 				<!-- ========== ShipHeatConduit ========== -->
 				<li Class="PatchOperationReplace">
