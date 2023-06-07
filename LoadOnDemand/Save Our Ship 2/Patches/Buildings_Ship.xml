@@ -1077,7 +1077,7 @@
 				</li>
 
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="CrittersleepCasket"]</xpath>
+					<xpath>Defs/ThingDef[defName="CrittersleepCasket"]/designatorDropdown</xpath>
 				</li>
 
 				<!-- ========== CrittersleepCasketLarge ========== -->
@@ -1104,7 +1104,7 @@
 				</li>
 
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="CrittersleepCasketLarge"]</xpath>
+					<xpath>Defs/ThingDef[defName="CrittersleepCasketLarge"]/designatorDropdown</xpath>
 				</li>
 
 				<!-- ========== Cryptonest ========== -->
@@ -1130,7 +1130,7 @@
 				</li>
 
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="Cryptonest"]</xpath>
+					<xpath>Defs/ThingDef[defName="Cryptonest"]/designatorDropdown</xpath>
 				</li>
 
 				<!-- ========== ShipCloakingDevice ========== -->
