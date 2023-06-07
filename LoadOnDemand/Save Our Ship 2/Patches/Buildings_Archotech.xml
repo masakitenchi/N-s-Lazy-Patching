@@ -472,9 +472,9 @@
 					</value>
 				</li>
 				
-				<!-- <li Class="PatchOperationRemove">	
+				<li Class="PatchOperationRemove">	
 					<xpath>Defs/ThingDef[defName="Ship_Engine_Archotech"]/designatorDropdown</xpath>
-				</li> -->
+				</li>
 				
 				<!-- ========== ShipAirlockArchotech ========== -->
 				<li Class="PatchOperationReplace">
