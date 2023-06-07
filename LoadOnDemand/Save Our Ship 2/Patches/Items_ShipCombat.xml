@@ -37,6 +37,18 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="Shell_AntigrainWarhead"]/recipeMaker</xpath>
 			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@Name="ShipTorpedoBase"]/recipeMaker</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="ShipTorpedoBase" and contains(defName,'ShipTorpedo_')]/recipeMaker</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="ShipTorpedoBase" and contains(defName,'ShipTorpedo_')]/costList</xpath>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
