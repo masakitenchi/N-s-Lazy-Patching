@@ -152,6 +152,14 @@
 					<xpath>Defs/ThingDef[@Name="ShipHeatsinkBase"]/designatorDropdown</xpath>
 				</li>
 				
+
+				<!-- Mechs lowest comfy temp to -100-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="SK_MechanoidThingBase"]/statBases/ComfyTemperatureMin</xpath>
+					<value>
+						<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+					</value>
+				</li>
 			</operations>
 		</match>
     </Operation>
